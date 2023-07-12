@@ -1,0 +1,46 @@
+<html>
+  <head>
+    <title>historytable</title>
+  </head>
+  <body>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="historytable.js"></script>
+    
+
+    
+    <input type="number" id="sayi1" />
+    
+    <input type="number" id="sayi2" />
+
+    <input type="text" id="son" />
+
+    <br>
+    
+    <button onclick="toplama()">Topla</button>
+
+    <button onclick="cıkarma()">cıkarma</button>
+
+    <button onclick="carpma()">carpma</button>
+
+    <button onclick="bolme()">bolme</button>
+
+    <button onclick="sayma()">sayaç</button>
+
+    <button onclick="grafik()">grafik</button>
+
+    <button onclick="dataolustur()">data olusturma</button>
+
+    <div style="width: 400px; margin: 0 auto;">
+        <canvas id="pieChart"></canvas>
+    </div>
+    
+    <button onclick="historytable()">History Table</button>
+
+    <br>
+    
+    <div style="width: 400;">
+    <table id="hisTable" border="1"></table>
+    </div>
+
+  </body>
+</html>
